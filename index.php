@@ -8,14 +8,19 @@
 
 			<?php include (TEMPLATEPATH . '/_/inc/meta.php' ); ?>
 
-			<div class="entry">
-				<?php the_content(); ?>
+			<div class="entry group">
+				<a href="<?php the_permalink() ?>"><?php 
+				if ( has_post_thumbnail() ) { // check if the post has a Post Thumbnail assigned to it.
+				  the_post_thumbnail('thumbnail', array('class' => 'alignleft'));
+				} 
+				?></a>
+				<?php the_excerpt(); ?>
 			</div>
 
-			<footer class="postmetadata">
-				<?php the_tags('Tags: ', ', ', '<br />'); ?>
-				Posted in <?php the_category(', ') ?> | 
-				<?php comments_popup_link('No Comments &#187;', '1 Comment &#187;', '% Comments &#187;'); ?>
+			<footer class="postmetadata clearfix">
+				<a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title(); ?>" class="read-more">read more</a>
+				Categories: <?php the_category(', ') ?> <br>
+				<?php comments_popup_link('No Comments', '1 Comment &#187;', '% Comments &#187;'); ?>
 			</footer>
 
 		</article>

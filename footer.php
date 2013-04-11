@@ -1,10 +1,5 @@
 		<footer id="footer" class="source-org vcard copyright">
-			<small>
-				TapAlytics services from <a href="http://scenetap.com/">SceneTap</a> <br>
-				&copy;<?php echo date("Y"); echo " "; bloginfo('name'); ?> 
-			
-			</small>
-			<?php wp_nav_menu(array('theme_location' => 'secondary-menu', 'container' => 'nav', 'container_class' => 'foot-nav', 'menu_class' => 'foot', 'fallback_cb' => '')); ?>
+			<small>&copy;<?php echo date("Y"); echo " "; bloginfo('name'); ?></small>
 		</footer>
 
 	</div>
@@ -18,7 +13,6 @@
 
 <!-- this is where we put our custom functions -->
 <script src="<?php bloginfo('template_directory'); ?>/_/js/functions.js"></script>
-<script src="<?php bloginfo('template_directory'); ?>/_/js/bootstrap.js"></script>
 
 <!-- Asynchronous google analytics; this is the official snippet.
 	 Replace UA-XXXXXX-XX with your site's ID and uncomment to enable.

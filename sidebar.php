@@ -1,5 +1,4 @@
-<aside id="sidebar" class="span3">
-<div class="pad">
+<div id="sidebar">
 
     <?php if (function_exists('dynamic_sidebar') && dynamic_sidebar('Sidebar Widgets')) : else : ?>
     
@@ -36,5 +35,5 @@
     	</ul>
 	
 	<?php endif; ?>
+
 </div>
-</aside>
