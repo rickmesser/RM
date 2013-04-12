@@ -53,6 +53,19 @@
 	// Post Types
     add_theme_support( 'post-formats', array('aside', 'gallery', 'link', 'image', 'quote', 'status', 'audio', 'chat', 'video')); 
 	
+	// Dynamically Generate Site Name
+	function html5reset_head_id() {
+    do_action('html5reset_head_id');
+	}
+
+	function head_id_slug() {
+	 $headidslug = get_bloginfo('name');
+	 $headidslug = ereg_replace("[^A-Za-z]", "", $headidslug);
+	 $headidslug = strtolower($headidslug);
+	 echo $headidslug; 
+	}          
+	add_action('html5reset_head_id','head_id_slug');  
+
 	// Add 3.1 post format theme support.
 	add_action( 'init', 'register_my_menus' );
 
