@@ -103,6 +103,24 @@ a.icon {
 	margin-bottom: -50px;
 }
 
+ul.approach {
+  list-style: none;
+  & li:before {
+  	content: '» \0000a0';
+  	font-size: 1.2em;
+  	font-weight: normal;
+  }
+}
+
+ul.tools {
+  list-style: none;
+  & li:before {
+  	content: '~ \0000a0';
+  	font-size: 1.2em;
+  	font-weight: normal;
+  }
+}
+
 
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 // IcoMoon RMD Webfont Styles
@@ -210,6 +228,16 @@ you can use the generic selector below, but it's slower:
 		}
 	}
 }
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+// WordPress Shiz
+// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+body.logged-in {
+	.navbar {
+		margin-top: 28px;
+	}
+}
+
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 // Media Queries
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

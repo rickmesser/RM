@@ -60,7 +60,7 @@
             <div class='span4 offset1'>
               <h3>My approach to</h3>
               <h1>Mobile</h1>
-              <ul class='unstyled'>
+              <ul class='approach'>
                 <li>Extensive UX planning</li>
                 <li>Pixel-perfect design for all states</li>
                 <li>Vector &amp; repeatable assets</li>
@@ -69,7 +69,7 @@
                 <li>Work with developers before, during and after hand-off</li>
               </ul>
               <h3>Tools of Choice:</h3>
-              <ul>
+              <ul class="tools">
                 <li>Photoshop</li>
                 <li>Skala Preview</li>
                 <li>Keynote for Wireframes</li>
@@ -79,7 +79,14 @@
           </div>
         </div>
         <footer class='summary'>
-          <p>Favorite Apps: FourSquare, Vine, TimeHop, Path, Rdio, Instagram</p>
+          <p>Favorite Apps: 
+            <a href="https://itunes.apple.com/us/app/foursquare/id306934924">FourSquare,</a>
+            <a href="https://vine.co/">Vine,</a> 
+            <a href="http://timehop.com/">TimeHop,</a> 
+            <a href="https://path.com/">Path,</a> 
+            <a href="http://www.rdio.com/">Rdio,</a> 
+            <a href="http://instagram.com/">Instagram</a>
+          </p>
         </footer>
       </div>
       <div class='banner soft-gold-bg'>
@@ -140,7 +147,7 @@
             <div class='span4 offset1'>
               <h3>My approach to</h3>
               <h1>Web</h1>
-              <ul class='unstyled'>
+              <ul class='approach'>
                 <li>Responsive, In-browser wireframes</li>
                 <li>OOCSS</li>
                 <li>Less, Haml, and CodeKit!</li>
@@ -149,7 +156,7 @@
               <h3>
                 Tools of Choice:
               </h3>
-              <ul>
+              <ul class="tools">
                 <li>Sublime Text 2</li>
                 <li>Photoshop</li>
                 <li>Bootstrap</li>
@@ -160,7 +167,12 @@
           </div>
         </div>
         <footer class='summary'>
-          <p>Favorite Web Things: ShopTalk Show, SMACSS, CSS Hat, Chrome Inspector</p>
+          <p>Favorite Web Things: 
+            <a href="http://shoptalkshow.com/">ShopTalk Show,</a> 
+            <a href="http://smacss.com/">SMACSS,</a> 
+            <a href="http://csshat.com/">CSS Hat,</a> 
+            <a href="https://developers.google.com/chrome-developer-tools/">Chrome Inspector</a>
+          </p>
         </footer>
       </div>
       <div class='banner soft-blue-bg'>
@@ -224,7 +236,7 @@
             <div class='span4 offset1'>
               <h3>My approach to</h3>
               <h1>Brands &amp; Such</h1>
-              <ul class='unstyled'>
+              <ul class='approach'>
                 <li>Establish Uses</li>
                 <li>Design for 1-color applications</li>
                 <li>Memorable &amp; Timeless Marks</li>
@@ -233,7 +245,7 @@
                 <li>Designed in a grid to break</li>
               </ul>
               <h3>Tools of Choice:</h3>
-              <ul>
+              <ul class="tools">
                 <li>Pencil &amp; Paper</li>
                 <li>Illustrator</li>
                 <li>InDesign</li>
@@ -242,7 +254,12 @@
           </div>
         </div>
         <footer class='summary'>
-          <p>Brands that I personally use: Field Notes, Apple, Micron pens, Old Spice Pure Sport Deodorant </p>
+          <p>Brands that I personally use: 
+            <a href="http://fieldnotesbrand.com/">Field Notes,</a>
+            <a href="http://www.apple.com/">Apple,</a> 
+            <a href="http://www.sakuraofamerica.com/Pen-Archival">Micron pens,</a> 
+            <a href="http://www.oldspice.com/en-US/product.aspx?id=2435">Old Spice Pure Sport Deodorant</a>
+          </p>
         </footer>
       </div>
       <div class='banner red-bg'>
@@ -269,7 +286,7 @@
                 <div class='notranslate' id='foli5'>
                   <input class='input-block-level' maxlength='255' name='Field5' onkeyup='' placeholder='What should we talk about?' required='' tabindex='5' type='text' value=''>
                 </div>
-                <input class='btTxt submit btn btn-primary btn-block' id='saveForm' name='saveForm' type='submit' value='Submit'>
+                <input class='btTxt submit btn btn-primary btn-block' id='saveForm' name='saveForm' type='submit' value='Boom'>
                 <li class='hide'>
                   <label for='comment'>Do Not Fill This Out</label>
                   <textarea cols='1' id='comment' name='comment' rows='1'></textarea>
@@ -283,11 +300,11 @@
               <p>You can also email, I just didn’t want to put “Contact” as the title of this section... That’s lame.</p>
               <p>I don’t even think my phone number is on this site actually&hellip;</p>
               <h3>Tools of Choice:</h3>
-              <ul>
+              <ul class="tools">
                 <li>Twitter</li>
                 <li>Coffee or Beer</li>
                 <li>Lunch</li>
-                <li>Send me an awesome rap video</li>
+                <li>Send me an awesome <a href="http://www.youtube.com/watch?v=gAYL5H46QnQ">rap video</a></li>
               </ul>
             </div>
           </div>
