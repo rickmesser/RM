@@ -86,10 +86,16 @@
 		 - see wikipedia for info on browser support: http://mky.be/favicon/ -->
 		 
 	<link rel="apple-touch-icon" href="<?php bloginfo('template_directory'); ?>/_/img/apple-touch-icon.png">
+<<<<<<< HEAD
 	<!-- The is the icon for iOS's Web Clip.
 		 - size: 57x57 for older iPhones, 72x72 for iPads, 114x114 for iPhone4's retina display (IMHO, just go ahead and use the biggest one)
 		 - To prevent iOS from applying its styles to the icon name it thusly: apple-touch-icon-precomposed.png
 		 - Transparency is not recommended (iOS will put a black BG behind the icon) -->
+=======
+	<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/_/css/main.css">
+  <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/_/css/responsive.css">
+	<link href='http://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+>>>>>>> Add portfolio to front page
 	
 	<!-- Google Web Font Links -->
 	<link href='http://fonts.googleapis.com/css?family=Cabin:400,700italic,400italic,700|Cabin+Condensed:400,700|Cabin+Sketch:400,700|Gentium+Book+Basic:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
@@ -108,6 +114,7 @@
 	
 </head>
 
+<<<<<<< HEAD
 <body <?php body_class(); ?>>
 	
 	<div id="page-wrap">
@@ -117,4 +124,17 @@
 			<h1><a href="<?php echo get_option('home'); ?>/"><?php bloginfo('name'); ?></a></h1>
 			<div class="description"><?php bloginfo('description'); ?></div>
 		</header>
+=======
+<body id='top' <?php body_class(); ?>>
+	
+	<header class='navbar navbar-fixed-top' role='banner'>
+      <div id='brand'>
+        <a href='#top'>
+          <img class='logo' src='<?php bloginfo('template_directory'); ?>/_/img/svg/logo.svg'>
+        </a>
+        <h1>Rick Messer Design</h1>
+      </div>
+    </header>
+		
+>>>>>>> Add portfolio to front page
 

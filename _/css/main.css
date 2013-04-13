@@ -3845,7 +3845,7 @@ input[type="submit"].btn.btn-mini {
   position: fixed;
   right: 0;
   left: 0;
-  z-index: 1051;
+  z-index: 1030;
   margin-bottom: 0;
 }
 .navbar-fixed-top .navbar-inner,
@@ -5407,10 +5407,10 @@ header[role="banner"] {
   -webkit-border-radius: 90em;
   -moz-border-radius: 90em;
   border-radius: 90em;
-  border: 5px solid #d9d9d9;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
+  box-shadow: 0 0 0 5px #d9d9d9, 0 3px 9px #000000;
 }
 a.icon {
   margin-bottom: -50px;
