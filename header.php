@@ -60,8 +60,8 @@
 		   ?>">
 	<meta name="description" content="<?php bloginfo('description'); ?>">
 	
-	<meta name="google-site-verification" content="">
-	<meta name="Copyright" content="Copyright <?php bloginfo('name'); ?><?php echo date("Y"); ?> All Rights Reserved.">
+  <meta name="google-site-verification" content="b5dN8rBgur611QwfC_xhY-b02O-urXjLS5NwIdG_Ghs" />
+	<meta name="Copyright" content="Copyright <?php bloginfo('name'); ?> <?php echo date("Y"); ?> All Rights Reserved.">
 	<link rel="shortcut icon" href="<?php bloginfo('template_directory'); ?>/_/img/favicon.ico">
 	<link rel="apple-touch-icon" href="<?php bloginfo('template_directory'); ?>/_/img/apple-touch-icon.png">
 	<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/_/css/main.css">
@@ -83,7 +83,7 @@
         <a href='#top'>
           <img class='logo' src='<?php bloginfo('template_directory'); ?>/_/img/svg/logo.svg'>
         </a>
-        <h1>Rick Messer Design</h1>
+        <h1><?php bloginfo('name'); ?></h1>
       </div>
     </header>
 		

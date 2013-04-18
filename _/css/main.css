@@ -5536,6 +5536,9 @@ you can use the generic selector below, but it's slower:
 body.logged-in .navbar {
   margin-top: 28px;
 }
+body.single {
+  background: #1fb27e;
+}
 @media (min-width: 1200px) {
   
 }

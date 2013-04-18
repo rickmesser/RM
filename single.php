@@ -1,31 +1,39 @@
 <?php get_header(); ?>
+	<div class='container'>
 
-	<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+    <div class="row span8">
 
-		<article <?php post_class() ?> id="post-<?php the_ID(); ?>">
-			
-			<h1 class="entry-title"><?php the_title(); ?></h1>
+  	<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
-			<div class="entry-content">
-				
-				<?php the_content(); ?>
+  		<article <?php post_class() ?> id="post-<?php the_ID(); ?>">
+  			
+  			<h1 class="entry-title"><?php the_title(); ?></h1>
 
-				<?php wp_link_pages(array('before' => 'Pages: ', 'next_or_number' => 'number')); ?>
-				
-				<?php the_tags( 'Tags: ', ', ', ''); ?>
-			
-				<?php include (TEMPLATEPATH . '/_/inc/meta.php' ); ?>
+  			<div class="entry-content">
+  				
+  				<?php the_content(); ?>
 
-			</div>
-			
-			<?php edit_post_link('Edit this entry','','.'); ?>
-			
-		</article>
+  				<?php wp_link_pages(array('before' => 'Pages: ', 'next_or_number' => 'number')); ?>
+  				
+  				<?php the_tags( 'Tags: ', ', ', ''); ?>
+  			
+  				<?php include (TEMPLATEPATH . '/_/inc/meta.php' ); ?>
 
-	<?php comments_template(); ?>
+  			</div>
+  			
+  			<?php edit_post_link('Edit this entry','','.'); ?>
+  			
+  		</article>
 
-	<?php endwhile; endif; ?>
-	
-<?php get_sidebar(); ?>
+  	<?php comments_template(); ?>
 
+  	<?php endwhile; endif; ?>
+    </div>
+
+    <div class="row span2">
+    <?php get_sidebar(); ?>
+    </div>
+
+	</div>
+  
 <?php get_footer(); ?>
