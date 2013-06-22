@@ -1,5 +1,7 @@
 <?php get_header(); ?>
-
+<div class='mint-bg'>
+  <div class='container'>
+    <div class='banner'>
 	<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
 		<article <?php post_class() ?> id="post-<?php the_ID(); ?>">
@@ -35,6 +37,9 @@
 
 	<?php endif; ?>
 
-<?php get_sidebar(); ?>
+  <?php get_sidebar(); ?>
+    </div>
+  </div>
+</div>
 
 <?php get_footer(); ?>

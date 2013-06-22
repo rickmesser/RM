@@ -309,10 +309,10 @@
             </div>
           </div>
         </div>
-        <footer class='summary'>
+        <footer class='summary' id="hint">
           <p>
             Call Me On:
-            <a class='icon' href='https://twitter.com/rickmesser'><span aria-hidden='true' data-icon='T'></span></a>
+            <a class='icon' rel="tooltip" data-placement="top" title="my tooltip text" href='https://twitter.com/rickmesser'><span aria-hidden='true' data-icon='T'></span></a>
             <a class='icon' href='http://www.rdio.com/people/rickmesser/'><span aria-hidden='true' data-icon='R'></span></a>
             <a class='icon' href='http://dribbble.com/rickmesser'><span aria-hidden='true' data-icon='D'></span></a>
           </p>

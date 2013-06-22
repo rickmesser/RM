@@ -22,6 +22,7 @@ $('#brand a').bind('click', function(e) {
 
    // edit: Opera requires the "html" elm. animated
 });
+$('[rel=tooltip]').tooltip(options);
 
 // Swipe Elements
 
