@@ -5299,6 +5299,13 @@ header[role="banner"] {
   font-size: 1.5em;
   line-height: .4;
 }
+#brand h1 a {
+  color: rgba(255, 255, 255, 0.8);
+}
+#brand h1 a:hover {
+  opacity: 0.4;
+  filter: alpha(opacity=40);
+}
 #brand h3 {
   font-size: 1.1em;
   line-height: .4;
@@ -5510,6 +5517,21 @@ article h2 {
 .blog-row article {
   padding: 1.5em 0;
   border-bottom: 1px dashed rgba(0, 0, 0, 0.15000000000000002);
+}
+.menu-main-container {
+  float: right;
+  margin-right: 1em;
+}
+ul#menu-main li {
+  list-style: none;
+  display: inline-block;
+  padding: 1.4em 1em;
+}
+ul#menu-main li a {
+  color: white;
+}
+ul#menu-main li a:hover {
+  color: grey;
 }
 @media (min-width: 1200px) {
   

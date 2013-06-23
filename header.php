@@ -79,13 +79,14 @@
 <body id='top' <?php body_class(); ?>>
 	
 	<header class='navbar navbar-fixed-top' role='banner'>
+      <?php wp_nav_menu( array( 'theme_location' => 'primary-menu', 'fallback_cb' => '' ) ); ?>
       <div id='brand'>
         <a href='#top'>
           <img class='logo' src='<?php bloginfo('template_directory'); ?>/_/img/svg/logo.svg'>
         </a>
-        <h1><?php bloginfo('name'); ?></h1>
+        <h1><a href="<?php echo get_settings('home'); ?>/"> <?php bloginfo('name'); ?></a></h1>
       </div>
-      <?php wp_nav_menu( array( 'theme_location' => 'primary-menu', 'fallback_cb' => '' ) ); ?>
+
     </header>
 		
 
