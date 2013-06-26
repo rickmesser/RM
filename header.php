@@ -94,7 +94,7 @@
 			        <a href='#top'>
 			          <img class='logo' src='<?php bloginfo('template_directory'); ?>/_/img/svg/logo.svg'>
 			        </a>
-			        <h1><a href="<?php echo get_settings('home'); ?>/"> <?php bloginfo('name'); ?></a></h1>
+			        <h1><a href="<?php echo get_option('home'); ?>/"> <?php bloginfo('name'); ?></a></h1>
 			      </div>
 			      
 	        </div>

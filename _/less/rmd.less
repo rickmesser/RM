@@ -35,7 +35,8 @@ header[role="banner"] {
 	padding-top: 70px;
 }
 #brand {
-	padding-top: 1.6em;
+	padding-top: 29px;
+	padding-left: 10px;
 	// float: left;
 	img.logo {
 		width: 27px;
@@ -56,6 +57,7 @@ header[role="banner"] {
 		a {
 			color: @textColor;
 			&:hover {.opacity(40);}
+			.transition(opacity 0.5s ease);
 		}
 	}
 	h3 {
@@ -268,8 +270,9 @@ ul#menu-main {
 		display: inline-block;
 		padding: 1.4em 1em;
 		a {
-			color: white;
-			&:hover { color: grey;}
+			color: @textColor;
+			.transition(opacity 0.5s ease);
+			&:hover {.opacity(40);}
 		}
 	}
 }
