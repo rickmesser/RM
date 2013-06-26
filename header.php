@@ -78,15 +78,30 @@
 
 <body id='top' <?php body_class(); ?>>
 	
-	<header class='navbar navbar-fixed-top' role='banner'>
-      <?php wp_nav_menu( array( 'theme_location' => 'primary-menu', 'fallback_cb' => '' ) ); ?>
-      <div id='brand'>
-        <a href='#top'>
-          <img class='logo' src='<?php bloginfo('template_directory'); ?>/_/img/svg/logo.svg'>
-        </a>
-        <h1><a href="<?php echo get_settings('home'); ?>/"> <?php bloginfo('name'); ?></a></h1>
-      </div>
+		<header id="header">
+		
+			<div class="navbar navbar-fixed-top">
+	      <div class="navbar-inner">
+	        <div class="container-fluid">
+	          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+	            <span class="icon-bar"></span>
+	            <span class="icon-bar"></span>
+	            <span class="icon-bar"></span>
+	          </a>
+	          
+	          <?php wp_nav_menu(array('theme_location' => 'primary-menu', 'container' => 'nav', 'container_class' => 'nav-collapse', 'menu_class' => 'nav pull-right', 'fallback_cb' => '', 'walker' => new Walker_Nav_Menu_Bootstrap)); ?>
+	          <div id='brand'>
+			        <a href='#top'>
+			          <img class='logo' src='<?php bloginfo('template_directory'); ?>/_/img/svg/logo.svg'>
+			        </a>
+			        <h1><a href="<?php echo get_settings('home'); ?>/"> <?php bloginfo('name'); ?></a></h1>
+			      </div>
+			      
+	        </div>
+	      </div>
+	    </div>
 
-    </header>
+	  </header>
+
 		
 
