@@ -931,18 +931,9 @@
   .navbar-fixed-bottom {
     margin-top: 24px;
   }
-  .navbar-fixed-top .navbar-inner,
-  .navbar-fixed-bottom .navbar-inner {
-    padding: 5px;
-  }
   .navbar .container {
     width: auto;
     padding: 0;
-  }
-  .navbar .brand {
-    padding-left: 10px;
-    padding-right: 10px;
-    margin: 0 0 0 -5px;
   }
   .nav-collapse {
     clear: both;
@@ -1062,6 +1053,8 @@
   }
   .navbar .btn-navbar {
     display: block;
+    background: transparent;
+    border: solid 1px rgba(255, 255, 255, 0.8);
   }
   .navbar-static .navbar-inner {
     padding-left: 10px;

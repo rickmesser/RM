@@ -14,14 +14,18 @@
   // Fix for IE7's bad z-indexing so dropdowns don't appear below content that follows the navbar
   *position: relative;
   *z-index: 2;
+  a {
+    color: @textColor;
+    .transition(opacity 0.5s ease);
+    &:hover {.opacity(40);}
+  }
 }
 
 // Inner for background effects
 // Gradient is applied to its own element because overflow visible is not honored by IE when filter is present
 .navbar-inner {
   min-height: @navbarHeight;
-  padding-left:  20px;
-  padding-right: 20px;
+  padding: @navbarHeight / 2;
   background: @darkBg;
   // #gradient > .vertical(@navbarBackgroundHighlight, @navbarBackground);
   // border: 1px solid @navbarBorder;
@@ -56,7 +60,7 @@
   font-size: 20px;
   font-weight: 200;
   color: @navbarBrandColor;
-  text-shadow: 0 1px 0 @navbarBackgroundHighlight;
+  // text-shadow: 0 1px 0 @navbarBackgroundHighlight;
   &:hover,
   &:focus {
     text-decoration: none;
@@ -187,8 +191,8 @@
 }
 .navbar-fixed-top .navbar-inner,
 .navbar-fixed-bottom .navbar-inner {
-  padding-left:  0;
-  padding-right: 0;
+  // padding-left:  0;
+  // padding-right: 0;
   .border-radius(0);
 }
 
@@ -287,9 +291,9 @@
   display: block;
   width: 18px;
   height: 2px;
-  background-color: #f5f5f5;
+  background-color: @textColor;
   .border-radius(1px);
-  .box-shadow(0 1px 0 rgba(0,0,0,.25));
+  // .box-shadow(0 1px 0 rgba(0,0,0,.25));
 }
 .btn-navbar .icon-bar + .icon-bar {
   margin-top: 3px;
