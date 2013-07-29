@@ -15,7 +15,7 @@
   *position: relative;
   *z-index: 2;
   a {
-    color: @textColor;
+    color: @linkColorHover;
     .transition(opacity 0.5s ease);
     &:hover {.opacity(40);}
   }
@@ -292,7 +292,7 @@
   width: 18px;
   height: 2px;
   background-color: @textColor;
-  .border-radius(1px);
+  .border-radius(0px);
   // .box-shadow(0 1px 0 rgba(0,0,0,.25));
 }
 .btn-navbar .icon-bar + .icon-bar {
@@ -356,7 +356,7 @@
 .navbar .nav li.dropdown.open > .dropdown-toggle,
 .navbar .nav li.dropdown.active > .dropdown-toggle,
 .navbar .nav li.dropdown.open.active > .dropdown-toggle {
-  background-color: @navbarLinkBackgroundActive;
+  // background-color: @navbarLinkBackgroundActive;
   color: @navbarLinkColorActive;
 }
 .navbar .nav li.dropdown > .dropdown-toggle .caret {

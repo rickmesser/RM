@@ -72,6 +72,7 @@
               <ul class="tools">
                 <li>Photoshop</li>
                 <li>Skala Preview</li>
+                <li>Slicy</li>
                 <li>Keynote for Wireframes</li>
                 <li>GUI Assets from Teehan + Lax</li>
               </ul>
@@ -80,11 +81,12 @@
         </div>
         <footer class='summary'>
           <p>Favorite Apps: 
-            <a href="https://itunes.apple.com/us/app/foursquare/id306934924">FourSquare,</a>
-            <a href="https://vine.co/">Vine,</a> 
-            <a href="http://timehop.com/">TimeHop,</a> 
-            <a href="https://path.com/">Path,</a> 
+            <a href="http://www.mailboxapp.com/">Mailbox,</a> 
             <a href="http://www.rdio.com/">Rdio,</a> 
+            <a href="http://timehop.com/">TimeHop,</a> 
+            <a href="https://itunes.apple.com/us/app/foursquare/id306934924">FourSquare,</a>
+            <a href="https://itunes.apple.com/us/app/id643496868">Hangouts,</a>
+            <a href="https://itunes.apple.com/us/app/id585027354">Google Maps,</a>
             <a href="http://instagram.com/">Instagram</a>
           </p>
         </footer>

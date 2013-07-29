@@ -84,7 +84,7 @@
 	      <div class="navbar-inner">
 	        <div class="container-fluid">
 	        	<a href='#top'><img class='logo' src='<?php bloginfo('template_directory'); ?>/_/img/svg/logo.svg'></a>
-	        	<a class='brand' href="<?php echo get_option('home'); ?>"><?php bloginfo('name'); ?></a></a>
+	        	<a class='brand hidden-phone' href="<?php echo get_option('home'); ?>"><?php bloginfo('name'); ?></a></a>
 	          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
 	            <span class="icon-bar"></span>
 	            <span class="icon-bar"></span>
