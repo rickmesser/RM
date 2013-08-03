@@ -61,20 +61,21 @@
               <h3>My approach to</h3>
               <h1>Mobile</h1>
               <ul class='approach'>
-                <li>Extensive UX planning</li>
-                <li>Pixel-perfect design for all states</li>
-                <li>Vector &amp; repeatable assets</li>
-                <li>Photoshop Layer &amp; Type Styles</li>
-                <li>PSD Layer Comps</li>
+                <li>Discovery &amp; competitive analysis</li>
+                <li>UX wireframe flows</li>
+                <li>Establish, grid &amp; aesthetic</li>
+                <li>Design on device!</li>
+                <li>Crisp, clean design for all states</li>
+                <li>Photoshop character styles!</li>
+                <li>PSD layer comps</li>
                 <li>Work with developers before, during and after hand-off</li>
               </ul>
               <h3>Tools of Choice:</h3>
               <ul class="tools">
+                <li>Keynote Wireframes via <a href="http://wirekraft.co/">Wirecraft</a> </li>
                 <li>Photoshop</li>
-                <li>Skala Preview</li>
-                <li>Slicy</li>
-                <li>Keynote for Wireframes</li>
-                <li>GUI Assets from Teehan + Lax</li>
+                <li><a href="http://bjango.com/mac/skalapreview/">Skala Preview</a></li>
+                <li><a href="http://macrabbit.com/slicy/">Slicy</a></li>
               </ul>
             </div>
           </div>
@@ -86,7 +87,7 @@
             <a href="http://timehop.com/">TimeHop,</a> 
             <a href="https://itunes.apple.com/us/app/foursquare/id306934924">FourSquare,</a>
             <a href="https://itunes.apple.com/us/app/id643496868">Hangouts,</a>
-            <a href="https://itunes.apple.com/us/app/id585027354">Google Maps,</a>
+            <a href="http://www.any.do/">Any.Do,</a>
             <a href="http://instagram.com/">Instagram</a>
           </p>
         </footer>
@@ -159,11 +160,10 @@
                 Tools of Choice:
               </h3>
               <ul class="tools">
-                <li>Sublime Text 2</li>
+                <li><a href="http://www.sublimetext.com/">Sublime Text 2</a></li>
                 <li>Photoshop</li>
-                <li>Bootstrap</li>
-                <li>GitHub</li>
-                <li>IcoMoon</li>
+                <li><a href="https://github.com/rickmesser">GitHub</a></li>
+                <li><a href="http://icomoon.io/">IcoMoon</a></li>
               </ul>
             </div>
           </div>
@@ -241,10 +241,8 @@
               <ul class='approach'>
                 <li>Establish Uses</li>
                 <li>Design for 1-color applications</li>
-                <li>Memorable &amp; Timeless Marks</li>
-                <li>In-person presentations</li>
-                <li>Environmental presentations</li>
-                <li>Designed in a grid to break</li>
+                <li>Memorable &amp; timeless marks</li>
+                <li>Design in context</li>
               </ul>
               <h3>Tools of Choice:</h3>
               <ul class="tools">

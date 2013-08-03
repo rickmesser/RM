@@ -1057,7 +1057,7 @@
   .navbar .btn-navbar {
     display: block;
     background: transparent;
-    border: solid 1px rgba(0, 0, 0, 0.7);
+    border: solid 1px rgba(0, 0, 0, 0.4);
   }
   .navbar-static .navbar-inner {
     padding-left: 10px;

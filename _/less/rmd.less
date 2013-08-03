@@ -86,9 +86,12 @@ img.logo {
 	margin-top: 7em;
 	margin-bottom: 7em;
 }
-.container {
-	.banner {
+.banner {
+	.container {
 		padding: 5em 0;
+		h1 {
+			font-size: @baseFontSize * 4.5;
+		}
 	} 
 }
 .green-bg { background: @green;}
@@ -283,6 +286,11 @@ article h2 {text-shadow: none;}
 	a.brand {
 		font-size: 40%;
 	}
+	// .blog {
+	// 	article:first-of-type {
+	// 		padding-top: 300px;
+	// 	}
+	// }
 }
 @media (max-width: 480px) {
 	.regridual-container {

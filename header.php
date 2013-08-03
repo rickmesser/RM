@@ -80,7 +80,7 @@
 	
 		<header id="header">
 		
-			<div class="navbar navbar-fixed-top">
+		<div class="navbar navbar-fixed-top">
 	      <div class="navbar-inner">
 	        <div class="container-fluid">
 	        	<a href='#top'><img class='logo' src='<?php bloginfo('template_directory'); ?>/_/img/svg/logo.svg'></a>
