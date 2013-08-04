@@ -29,46 +29,32 @@
 @pink:                  #c3325f;
 @purple:                #7a43b6;
 
-// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-// Theme Colors
-// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-@darkBg: #2d2d2d;
-@softOrange: #ca7740;
-@green: #1fb27e;
-@purple: #ac74b3;
-@softGold: #b6a95f;
-@softBlue: #4aa4bb;
-@yellow: #caa540;
-@red: #c05032;
-@mint: #1fb27e;
-
 
 // Scaffolding
 // -------------------------
 @bodyBackground:        @white;
-@textColor: rgba(0,0,0,0.7);
+@textColor:             @grayDark;
 
 
 // Links
 // -------------------------
-@linkColor:             rgba(0,0,0,0.4);
-@linkColorHover:        rgba(255,255,255,0.8);
+@linkColor:             #08c;
+@linkColorHover:        darken(@linkColor, 15%);
 
 
 // Typography
 // -------------------------
 @sansFontFamily:        "Helvetica Neue", Helvetica, Arial, sans-serif;
-@serifFontFamily:       "Droid Serif", "Times New Roman", Times, serif;
+@serifFontFamily:       Georgia, "Times New Roman", Times, serif;
 @monoFontFamily:        Monaco, Menlo, Consolas, "Courier New", monospace;
 
-@baseFontSize:          16px;
-@baseFontFamily:        @serifFontFamily;
-@baseLineHeight:        24px;
-@altFontFamily:         @sansFontFamily;
+@baseFontSize:          14px;
+@baseFontFamily:        @sansFontFamily;
+@baseLineHeight:        20px;
+@altFontFamily:         @serifFontFamily;
 
-@headingsFontFamily:    "Droid Serif"; // empty to use BS default, @baseFontFamily
-@headingsFontWeight:    normal;    // instead of browser default, bold
+@headingsFontFamily:    inherit; // empty to use BS default, @baseFontFamily
+@headingsFontWeight:    bold;    // instead of browser default, bold
 @headingsColor:         inherit; // empty to use BS default, @textColor
 
 
@@ -87,7 +73,6 @@
 @baseBorderRadius:      4px;
 @borderRadiusLarge:     6px;
 @borderRadiusSmall:     3px;
-@borderRadiusCircle:	90em;
 
 
 // Tables
@@ -124,8 +109,8 @@
 
 // Forms
 // -------------------------
-@inputBackground:               transparent;
-@inputBorder:                   @textColor;
+@inputBackground:               @white;
+@inputBorder:                   #ccc;
 @inputBorderRadius:             @baseBorderRadius;
 @inputDisabledBackground:       @grayLighter;
 @formActionsBackground:         #f5f5f5;
@@ -172,7 +157,7 @@
 
 // Input placeholder text color
 // -------------------------
-@placeholderText:         @linkColor;
+@placeholderText:         @grayLight;
 
 
 // Hr border color
